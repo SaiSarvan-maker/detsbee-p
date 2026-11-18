@@ -20,6 +20,10 @@ In repository settings, enable Pages and deploy from the `main` branch root. The
 
 The guide currently links to `https://detsbee-1.vercel.app/`. Update the `href` values in `index.html` if the production app URL changes.
 
+## Android download
+
+The Android CTA downloads `downloads/Detsbee-Android-v1.apk` from the same domain as the guide. Keep the APK in this path for deployment; Vercel serves it with the Android package MIME type and attachment filename.
+
 ## Content accuracy
 
 The guide describes the current product behavior: one completed response per invitation link; the recipient can answer without an account; each answer can be Shared, Private, Skip, or Decline; the creator sees shared responses only. Shared Ground uses normalized exact text matches, not semantic or personality analysis. No AI question generation is claimed.
